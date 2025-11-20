@@ -1,0 +1,11 @@
+[server]
+maxUploadSize = 100  # MB (reduce from default 200 to prevent timeouts)
+maxMessageSize = 100  # MB
+headless = true
+
+[runner]
+magicEnabled = false
+fastReruns = false
+
+[client]
+showErrorDetails = true
